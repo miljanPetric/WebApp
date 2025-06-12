@@ -1,0 +1,104 @@
+{
+  "users": [
+    {
+      "id": "user1",
+      "username": "testuser",
+      "password": "password123",
+      "role": "user"
+    },
+    {
+      "id": "user2",
+      "username": "jovan",
+      "password": "lozinka",
+      "role": "user"
+    },
+    {
+      "id": "admin1",
+      "username": "admin",
+      "password": "adminpass",
+      "role": "admin"
+    }
+  ],
+  "wallets": [
+    {
+      "id": "wallet1",
+      "userId": "user1",
+      "balances": {
+        "BTC": 1,
+        "ETH": 2.1,
+        "XRP": 100
+      }
+    },
+    {
+      "id": "wallet2",
+      "userId": "user2",
+      "balances": {
+        "BTC": 1.5,
+        "ETH": 5,
+        "ADA": 1000,
+        "DOT": 50
+      }
+    }
+  ],
+  "transactions": [
+    {
+      "id": "tx1",
+      "senderId": "user1",
+      "receiverId": "user2",
+      "amount": 0.1,
+      "currency": "BTC",
+      "date": "2023-10-26T10:00:00Z",
+      "type": "send"
+    },
+    {
+      "id": "tx2",
+      "senderId": "user2",
+      "receiverId": "user1",
+      "amount": 0.05,
+      "currency": "BTC",
+      "date": "2023-10-26T11:00:00Z",
+      "type": "receive"
+    },
+    {
+      "id": "tx1749661690862",
+      "senderId": "user2",
+      "receiverId": "user1",
+      "amount": 0.5,
+      "currency": "BTC",
+      "date": "2025-06-11T17:08:10.863Z",
+      "type": "send"
+    }
+  ],
+  "cryptos": [
+    {
+      "id": "crypto1",
+      "symbol": "BTC",
+      "name": "Bitcoin",
+      "currentPriceUSD": 65000
+    },
+    {
+      "id": "crypto2",
+      "symbol": "ETH",
+      "name": "Ethereum",
+      "currentPriceUSD": 3200
+    },
+    {
+      "id": "crypto3",
+      "symbol": "XRP",
+      "name": "Ripple",
+      "currentPriceUSD": 0.5
+    },
+    {
+      "id": "crypto4",
+      "symbol": "ADA",
+      "name": "Cardano",
+      "currentPriceUSD": 0.45
+    },
+    {
+      "id": "crypto5",
+      "symbol": "DOT",
+      "name": "Polkadot",
+      "currentPriceUSD": 7.2
+    }
+  ]
+}
